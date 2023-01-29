@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            FlipCoin.FindPercentageOfFlipCoin();
             Console.WriteLine("Functinal Programing Problems : ");
         }
     }
