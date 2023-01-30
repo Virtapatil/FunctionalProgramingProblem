@@ -7,7 +7,7 @@
             Console.WriteLine("Functinal Programing Problem");
 
             Console.WriteLine("Please enter below number");
-            Console.WriteLine("1.FlipCoin \n2.LeapYear \n3.PowerOf2 \n5.QuotientAndRemainder \n6.SwapTwoNumber \n7.EvenOrOdd \n 11.Exit");
+            Console.WriteLine("1.FlipCoin \n2.LeapYear \n3.PowerOf2 \n4.HarmonicNumber \n6.QuotientAndRemainder \n7.SwapTwoNumber \n8.EvenOrOdd \n9.VowelOrConsonant \n 11.Exit");
             int choice = Convert.ToInt32(Console.ReadLine());
 
             switch (choice)
@@ -21,14 +21,17 @@
                 case 3:
                     PowerOf2.FindPowerOf2();
                     break;
-                case 5:
+                case 6:
                     QuotientAndRemainder.FindQuotientAndRemainder();
                     break;
-                case 6:
+                case 7:
                     SwapTwoNumbers.FindSwapTwoNumbers();
                     break;
-                case 7:
+                case 8:
                     EvenOrOdd.FindEvenOrOdd();
+                    break;
+                    case 9:
+                        VowelOrConsonant.FindVowelOrConsonant();
                     break;
                 default:
                     Console.WriteLine("please enter the option from above");
